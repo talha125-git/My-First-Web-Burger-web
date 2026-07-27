@@ -1,3 +1,3 @@
 git add .
-git commit -m "add live link "
+git commit -m "fix: correct favicon link in the team page"
 git push -u origin main
