@@ -8,16 +8,20 @@ body {
 .main {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end; /* Adjusted to align to the bottom */
+    align-items: flex-end;
+    /* Adjusted to align to the bottom */
     height: 100vh;
     background-color: white;
     background-image: url(burgir_backg-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 54%;
-    background-position: right bottom; /* Adjusted to move the image to the right-bottom corner */
+    background-position: right bottom;
+    /* Adjusted to move the image to the right-bottom corner */
 
-    margin: 0; /* Ensure no margin */
-    padding: 0; /* Ensure no padding */
+    margin: 0;
+    /* Ensure no margin */
+    padding: 0;
+    /* Ensure no padding */
 }
 
 
@@ -36,7 +40,7 @@ body {
     color: #fff;
 }
 
-.header p{
+.header p {
     text-align: center;
 }
 
@@ -46,7 +50,8 @@ body {
     bottom: 8px;
     left: 10px;
     text-align: center;
-    z-index: 1; /* Ensure the button is above other elements */
+    z-index: 1;
+    /* Ensure the button is above other elements */
 }
 
 nav {
@@ -60,7 +65,7 @@ nav {
     left: 50px;
     background-color: white;
     z-index: 999;
-   
+
 }
 
 nav ul {
@@ -68,12 +73,13 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    
+
 }
 
 /* Adjust the font size of the navbar elements */
 nav a {
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 14px;
+    /* Adjust the font size as needed */
 }
 
 nav img {
@@ -103,21 +109,23 @@ nav ul li a:hover {
 
 
 
-.sec2 {                                      /* Section 2 */
+.sec2 {
+    /* Section 2 */
     display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   text-align: center;
-   background-color: #ffffff;
-   margin-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 0;
 }
 
 .details h2 {
     width: 95px;
     color: #4c4343;
-    margin: 0 auto; /* Set left and right margins to auto for centering */
+    margin: 0 auto;
+    /* Set left and right margins to auto for centering */
 }
 
 .details p {
@@ -132,6 +140,7 @@ header {
     text-align: center;
     color: #FFE;
 }
+
 .product {
     background-color: #fff;
     border-radius: 24px;
@@ -142,6 +151,7 @@ header {
     width: 151px;
     transition: transform 0.2s;
 }
+
 .product img {
     width: 97%;
     height: 102px;
@@ -149,10 +159,12 @@ header {
     border-bottom: -1px solid #ddd;
     border-radius: 5px 8px 0 0;
 }
+
 .details {
     padding: 15px;
     text-align: center;
 }
+
 .cart-btn {
     background-color: #e74c3c;
     color: #fff;
@@ -166,7 +178,8 @@ header {
 
 
 
-.testimonial-content {                 /*  testmonals */
+.testimonial-content {
+    /*  testmonals */
     text-align: center;
     max-width: 622px;
     border: 1px solid;
@@ -183,13 +196,15 @@ header {
     width: 165px;
     height: 182px;
 }
+
 p {
     margin: 10px 18px;
     font-size: 15px;
     color: #0b1103;
 }
 
-.sec4 {                                 /*  SECTION 4 */
+.sec4 {
+    /*  SECTION 4 */
     display: flex;
     align-items: baseline;
     justify-content: flex-end;
@@ -197,18 +212,15 @@ p {
     color: #ffffff;
     padding: 0px;
 }
+
 .imglast img {
     width: 192px;
     border-radius: 49%;
     margin-right: -165px;
 }
+
 .iconss {
     width: 47px;
     margin-right: -71px;
     margin-left: 66px;
 }
-
-
-
-
-
