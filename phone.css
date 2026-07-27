@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; /* Adjusted to align to the bottom */
+    height: 100vh;
+    background-color: white;
+    background-image: url(burgir_backg-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 54%;
+    background-position: right bottom; /* Adjusted to move the image to the right-bottom corner */
+
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+}
+
+
+.header {
+    position: relative;
+    top: 35%;
+    right: 1%;
+    transform: translate(0, -50%);
+    width: 583px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.header p{
+    text-align: center;
+}
+
+
+.album {
+    position: fixed;
+    bottom: 8px;
+    left: 10px;
+    text-align: center;
+    z-index: 1; /* Ensure the button is above other elements */
+}
+
+nav {
+    display: flex;
+    width: 78%;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 123px;
+    left: 50px;
+    background-color: white;
+    z-index: 999;
+   
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+/* Adjust the font size of the navbar elements */
+nav a {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+nav img {
+    width: 145px;
+    position: absolute;
+    top: -141px;
+    left: -62px;
+}
+
+nav ul li {
+    margin: 2px 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 7px 6px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #581b1b;
+}
+
+
+
+.sec2 {                                      /* Section 2 */
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   text-align: center;
+   background-color: #ffffff;
+   margin-bottom: 0;
+}
+
+.details h2 {
+    width: 95px;
+    color: #4c4343;
+    margin: 0 auto; /* Set left and right margins to auto for centering */
+}
+
+.details p {
+    margin: 8px 0;
+    width: 125px;
+    color: #777;
+}
+
+header {
+    background-color: #df7e34;
+    padding: 14px;
+    text-align: center;
+    color: #FFE;
+}
+.product {
+    background-color: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    width: 251px;
+    margin: 35px;
+    width: 151px;
+    transition: transform 0.2s;
+}
+.product img {
+    width: 97%;
+    height: 102px;
+    object-fit: cover;
+    border-bottom: -1px solid #ddd;
+    border-radius: 5px 8px 0 0;
+}
+.details {
+    padding: 15px;
+    text-align: center;
+}
+.cart-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+
+
+.testimonial-content {                 /*  testmonals */
+    text-align: center;
+    max-width: 622px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0px;
+    background-color: #ffffff;
+    box-shadow: 11px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 92px;
+}
+
+.testimonial img {
+    border-radius: 105%;
+    margin-bottom: 10px;
+    width: 165px;
+    height: 182px;
+}
+p {
+    margin: 10px 18px;
+    font-size: 15px;
+    color: #0b1103;
+}
+
+.sec4 {                                 /*  SECTION 4 */
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    background-color: rgb(35, 35, 33);
+    color: #ffffff;
+    padding: 0px;
+}
+.imglast img {
+    width: 192px;
+    border-radius: 49%;
+    margin-right: -165px;
+}
+.iconss {
+    width: 47px;
+    margin-right: -71px;
+    margin-left: 66px;
+}
+
+
+
+
+
